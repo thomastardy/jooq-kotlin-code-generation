@@ -1,0 +1,43 @@
+# build output
+/target
+/logs
+/node_modules
+/.tmp
+node
+.sass-cache
+
+# log
+*.log
+/logs/
+
+# db backups
+*.bak
+
+# intellij config files
+/*.iml
+/.idea/libraries/
+/.idea/sonarIssues.xml
+/.idea/workspace.xml
+/.idea/dictionaries/tardy.xml
+/.idea/jsLibraryMappings.xml
+/.idea/uiDesigner.xml
+/.idea/dataSources.*
+/.idea/dataSources/*
+/.idea/artifacts
+/.idea/shelf
+/.idea/jsLinters/eslint.xml
+/.idea/compiler.xml
+/.idea/sonarlint
+
+# misc
+.merge_file*
+/src/main/resources/rebel.xml
+.tern-project
+.externalToolBuilders
+.DocumentRevisions-V100
+.fseventsd
+/html-angular-validate-report-checkstyle.xml
+/html-angular-validate-report.json
+
+# test results
+/testresults/*

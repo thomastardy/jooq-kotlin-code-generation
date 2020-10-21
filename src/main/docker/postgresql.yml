@@ -1,0 +1,12 @@
+version: '2'
+services:
+    postgresql:
+        image: postgres:11-alpine
+        environment:
+            - POSTGRES_USER=test
+            - POSTGRES_PASSWORD=test
+            - LANGUAGE=de_CH.UTF-8
+            - LANG=de_CH.UTF-8
+            - LC_ALL=de_CH.UTF-8
+        ports:
+            - 5432:5432
